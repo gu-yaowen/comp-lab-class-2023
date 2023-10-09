@@ -1,3 +1,6 @@
+# NOTE: the jupyter notebook file is in Analysis folder. The figures are in Figures folder. Sbatch scripts are in Setup folder. The .gro and .mdp files are in the corresponding project's gromacs folder.
+
+
 # Assignment for Lab 4
 
 This week we are going to set up MD simulations and analyze them using CHARMM-GUI. CHARMM-GUI is a website developed by the lab of Woonpil Im and others to enable setting up much more complex initial configurations for MD, and generating the input files for different MD engines.
