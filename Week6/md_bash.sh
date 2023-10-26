@@ -1,37 +1,47 @@
 source /scratch/work/courses/CHEM-GA-2671-2023fa/software/gromacs-2019.6-plumedSept2020/bin/GMXRC.bash.modules
 
-gmx_mpi mdrun -v -s Inputs/topolA.tpr -nsteps 10000000 -deffnm Data/md_A
+gmx_mpi mdrun -v -s Inputs/dialaA/topolA.tpr -nsteps 10000000 -deffnm Inputs/dialaA/md_A
 
-gmx_mpi mdrun -v -s Inputs/topolB.tpr -nsteps 10000000 -deffnm Data/md_B
+gmx_mpi mdrun -v -s Inputs/dialaB/topolB.tpr -nsteps 10000000 -deffnm Inputs/dialaB/md_B
+
+cd Inputs/dialaA
+plumed driver --plumed plumed_A.dat --mf_xtc md_A.xtc
+
+cd ../dialaB
+plumed driver --plumed plumed_B.dat --mf_xtc md_B.xtc
+cd ../..
+
+# run phi metadynamics for structure A
+cd Inputs/dialaA
+gmx_mpi mdrun -v -s topolA.tpr -nsteps 5000000 -plumed plumed_metad_phi_A.dat
+
+# run psi metadynamics for structure A
+gmx_mpi mdrun -v -s topolA.tpr -nsteps 5000000 -plumed plumed_metad_psi_A.dat
+cd ../..
+
+plumed sum_hills --hills HILLS --outfile metad_hill_A_all.dat
+
+plumed sum_hills --hills HILLS --stride 100 --mintozero --outfile metad_hill_A.dat
+
+for sigma in 0.2 0.35 0.7
+do
+    gmx_mpi mdrun -v -s topolA.tpr -nsteps 5000000 -plumed plumed_metad_phi_A_sigma$sigma.dat
+    plumed sum_hills --hills HILLS_sigma$sigma --outfile metad_hill_A_all_sigma$sigma.dat
+done
+
+for height in 1.0 1.5
+do
+    gmx_mpi mdrun -v -s topolA.tpr -nsteps 5000000 -plumed plumed_metad_phi_A_height$height.dat
+    plumed sum_hills --hills HILLS_height$height --outfile metad_hill_A_all_height$height.dat
+done
+
+for biasf in 1 2 5 15
+do
+    gmx_mpi mdrun -v -s topolA.tpr -nsteps 5000000 -plumed plumed_metad_phi_A_biasf$biasf.dat
+    plumed sum_hills --hills HILLS_bf$biasf --outfile metad_hill_A_all_biasf$biasf.dat
+done
 
 
-cd Inputs
-plumed driver --plumed plumed_A.dat --mf_xtc ../Data/md_A.xtc
-mv COLVAR_A ../Data/COLVAR_A
-
-# modify the plumed.dat file to compute the CVs for the second trajectory
-plumed driver --plumed plumed_B.dat --mf_xtc ../Data/md_B.xtc
-mv COLVAR_B ../Data/COLVAR_B
-cd ..
-
-# Production MD
-
-gmx_mpi grompp -f Inputs/adp_T300.mdp -c Inputs/adp.gro -p Inputs/adp.top -o Inputs/adp_md.tpr
-
-gmx_mpi mdrun -v -deffnm Inputs/adp_md
-
-# #gmx_mpi mdrun -deffnm Data/1aki_md_0_1 -nb gpu
-
-# # Analysis
-
-# (echo "1"; echo "1") | gmx_mpi trjconv -s Data/1aki_md_0_1.tpr -f Data/1aki_md_0_1.xtc -o Data/1aki_md_0_1_noWater.xtc -pbc mol -center
-
-# (echo "1"; echo "1") | gmx_mpi trjconv -s Data/1aki_md_0_1.tpr -f Data/1aki_md_0_1.gro -o Data/1aki_md_0_1_noWater.gro -pbc mol -center
-
-
-
-# (echo "4"; echo "4") | gmx_mpi rms -s Data/1aki_md_0_1.tpr -f Data/1aki_md_0_1_noWater.xtc -o Analysis/1aki_rmsd.xvg -tu ns
-
-# (echo "4"; echo "4") | gmx_mpi rms -s Data/1aki_em.tpr -f Data/1aki_md_0_1_noWater.xtc -o Analysis/1aki_rmsd_xtal.xvg -tu ns
-
-# echo "1" | gmx_mpi gyrate -s Data/1aki_md_0_1.tpr -f Data/1aki_md_0_1_noWater.xtc -o Analysis/1aki_gyrate.xvg
+gmx_mpi mdrun -v -s topolA.tpr -nsteps 5000000 -plumed plumed_metad_2D_A.dat
+plumed sum_hills --hills HILLS_2D --outfile metad_hill_A_all_2D.dat
+plumed sum_hills --hills HILLS_2D --stride 100 --mintozero --outfile metad_hill_2D.dat

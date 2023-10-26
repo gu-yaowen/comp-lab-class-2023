@@ -1,0 +1,425 @@
+Query         6D1R_1|Chain A|Ribonuclease P protein component|Staphylococcus aureus (1280)
+Match_columns 119
+No_of_seqs    187 out of 7973
+Neff          6.77042
+Searched_HMMs 80799
+Date          Sat Oct 21 03:51:43 2023
+Command       /usr/bin/hhsearch -i /state/partition1/job-39077043/tmphkxh65a7/query.a3m -o /state/partition1/job-39077043/tmphkxh65a7/output.hhr -maxseq 1000000 -d /alphafold-data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6D1R_A Ribonuclease P protein   99.9 1.3E-32 1.7E-37  191.1   0.0  119    1-119     1-119 (119)
+  2 1D6T_A RIBONUCLEASE P (E.C.3.1  99.9 3.2E-32   4E-37  188.4   0.0  117    3-119     1-117 (117)
+  3 4JG4_A Ribonuclease P protein   99.9 1.6E-30   2E-35  180.4   0.0  117    2-118     1-117 (119)
+  4 2LJP_A Ribonuclease P protein   99.9 6.2E-29 7.6E-34  172.5   0.0  113    2-115     3-116 (119)
+  5 1NZ0_A Ribonuclease P protein   99.9 8.1E-29   1E-33  171.8   0.0  110    2-112     3-117 (118)
+  6 6MAX_A Ribonuclease P protein   99.9 1.6E-27   2E-32  164.3   0.0  105    7-112     3-112 (113)
+  7 4OXP_A Ribonuclease, Rne/Rng f  88.4    0.23 2.8E-06   40.8   0.0   61   48-115   213-273 (290)
+  8 5F6C_B Ribonuclease E/RNA Comp  77.9     1.5 1.8E-05   38.6   0.0   61   48-116   138-198 (513)
+  9 5F6C_A Ribonuclease E/RNA Comp  74.8     2.1 2.6E-05   37.7   0.0   61   48-116   138-198 (512)
+ 10 2BX2_L RIBONUCLEASE E (E.C.3.1  74.5     2.2 2.7E-05   37.7   0.0   61   48-116   143-203 (517)
+ 11 3B0Z_A Flagellar biosynthetic   32.9      37 0.00046   21.1   0.0   32   56-87     19-51  (52)
+ 12 3BZL_B EscU; Auto cleavage pro  29.7      46 0.00056   20.9   0.0   32   56-87     21-53  (54)
+ 13 3BZY_A EscU; Auto cleavage pro  29.7      46 0.00056   20.9   0.0   32   56-87     21-53  (54)
+ 14 5T87_G CdiI immunity protein,   28.8      48  0.0006   22.4   0.0   21   95-115    50-70  (76)
+ 15 5T87_H CdiI immunity protein,   28.8      48  0.0006   22.4   0.0   21   95-115    50-70  (76)
+ 16 3C01_B Surface presentation of  28.6      49 0.00061   20.1   0.0   32   56-87     15-47  (48)
+ 17 2ML9_A Yop proteins translocat  27.8      52 0.00064   20.9   0.0   32   56-87     25-57  (58)
+ 18 6EJP_A Yop proteins translocat  27.8      52 0.00064   20.9   0.0   32   56-87     25-57  (58)
+ 19 4JM1_A hypothetical protein; O  24.1      67 0.00083   21.7   0.0   16   44-59     68-83  (84)
+ 20 2BSH_A SYCT; TYPE III SECRETIO  22.2      77 0.00095   22.0   0.0   36   82-117    82-117 (125)
+ 21 2LSE_A Four Helix Bundle Prote  21.2      83   0.001   21.6   0.0   28   89-116    62-89  (101)
+ 22 3B1S_C Flagellar biosynthetic   21.0      84   0.001   19.5   0.0   32   56-87     19-51  (52)
+ 23 1JYA_A YOPE regulator; SPECIFI  20.1      91  0.0011   21.8   0.0   35   83-117    86-120 (130)
+ 24 2VT1_A SURFACE PRESENTATION OF  20.0      91  0.0011   19.4   0.0   32   56-87     19-51  (52)
+
+No 1
+>6D1R_A Ribonuclease P protein component (E.C.3.1.26.5); RNase, P protein, tRNA processing; 1.995A {Staphylococcus aureus}
+Probab=99.95  E-value=1.3e-32  Score=191.09  Aligned_cols=119  Identities=100%  Similarity=1.386  Sum_probs=104.3  Template_Neff=7.600
+
+Q 6D1R_1|Chain      1 GAMGWEKAYRIKKNADFQRIYKKGHSVANRQFVVYTCNNKEIDHFRLGISVSKKLGNAVLRNKIKRAIRENFKVHKSHIL   80 (119)
+Q Consensus         1 ~~~gf~K~~RLkk~~dF~~V~~~G~~~~~~~~~~~~~~~~~~~~~R~Gi~vsKKvg~AV~RNriKR~iRE~fR~~~~~l~   80 (119)
+                      |+||||+.+||+++.||+.++++|+++++++|.+++.++++.+++|+||+||||+++||+||++||++||++|.+...++
+T Consensus         1 ~~~~l~k~~RL~~~~~f~~v~k~g~~~~~~~~~l~~~~~~~~~~~r~givvsKK~~~AV~RNriKR~lre~~r~~~~~l~   80 (119)
+T 6D1R_A            1 GAMGWEKAYRIKKNADFQRIYKKGHSVANRQFVVYTCNNKEIDHFRLGISVSKKLGNAVLRNKIKRAIRENFKVHKSHIL   80 (119)
+T ss_dssp             ------CCSBCCCHHHHHHHHHHSEEEECSSEEEEEEECTTCSSCEEEEECCTTSCCHHHHHHHHHHHHHHHHHTGGGCC
+T ss_pred             CCCCCChhhccCCHHHHHHHHHhCceEecCeEEEEEEcCCCCCCeEEEEEEeCccccHHHHHHHHHHHHHHHHHhhhhCC
+Confidence            89999999999999999999999999999999999998753579999999999999999999999999999999998888
+
+
+Q 6D1R_1|Chain     81 AKDIIVIARQPAKDMTTLQIQNSLEHVLKIAKVFNKKIK  119 (119)
+Q Consensus        81 ~~d~vii~r~~~~~~~~~~l~~~l~~llk~akl~~k~~~  119 (119)
+                      ++|+||++++++.+.+++++.+|+.+++.++++++++++
+T Consensus        81 ~~d~vi~~k~~~~~~~~~~l~~~l~~ll~k~~~~~~~~~  119 (119)
+T 6D1R_A           81 AKDIIVIARQPAKDMTTLQIQNSLEHVLKIAKVFNKKIK  119 (119)
+T ss_dssp             SEEEEEEECGGGGGSCHHHHHHHHHHHHHHTTSCC----
+T ss_pred             CCeEEEEEcCcccCCCHHHHHHHHHHHHHHhhhhhhhcC
+Confidence            999999999999999999999999999999999998874
+
+
+No 2
+>1D6T_A RIBONUCLEASE P (E.C.3.1.26.5); ENDONUCLEASE, RNASE, SUBUNIT, HYDROLASE; NMR {Staphylococcus aureus} SCOP: d.14.1.2
+Probab=99.94  E-value=3.2e-32  Score=188.41  Aligned_cols=117  Identities=98%  Similarity=1.311  Sum_probs=110.9  Template_Neff=7.800
+
+Q 6D1R_1|Chain      3 MGWEKAYRIKKNADFQRIYKKGHSVANRQFVVYTCNNKEIDHFRLGISVSKKLGNAVLRNKIKRAIRENFKVHKSHILAK   82 (119)
+Q Consensus         3 ~gf~K~~RLkk~~dF~~V~~~G~~~~~~~~~~~~~~~~~~~~~R~Gi~vsKKvg~AV~RNriKR~iRE~fR~~~~~l~~~   82 (119)
+                      ||||+.+||+++.||+.++++|+++++++|.+++.++++.+++|+||+||||+++||+||++||++||++|.+.+.++++
+T Consensus         1 ~ml~k~~rL~~~~ef~~v~k~g~~~~~~~~~l~~~~~~~~~~~r~givV~KK~~~AV~RNriKR~lre~~r~~~~~l~~~   80 (117)
+T 1D6T_A            1 MLLEKAYRIKKNADFQRIYKKGHSVANRQFVVYTCNNKEIDHFRLGISVSKKLGNAVLRNKIKRAIRENFKVHKSHILAK   80 (117)
+T ss_dssp             CCCCGGGBCCSSHHHHHHHHHCEECCSSSEECEECSTTCCSSCCEEEECCSSSCSTTHHHHHHHHHHHHHHHGGGTCCSS
+T ss_pred             CCCChhhccCCHHHHHHHHHhCceEecCeEEEEEEcCCCCCCeEEEEEEeCccccHHHHHHHHHHHHHHHHHhhhcCCCC
+Confidence            89999999999999999999999999999999999875357999999999999999999999999999999998878899
+
+
+Q 6D1R_1|Chain     83 DIIVIARQPAKDMTTLQIQNSLEHVLKIAKVFNKKIK  119 (119)
+Q Consensus        83 d~vii~r~~~~~~~~~~l~~~l~~llk~akl~~k~~~  119 (119)
+                      |+||++++++.+.+++|+.+|+..++++++++.++++
+T Consensus        81 d~vi~~k~~~~~~~~~~l~~~l~~ll~~~~~~~~~~~  117 (117)
+T 1D6T_A           81 DIIVIARQPAKDMTTLQIQNSLEHVLKIAKVFNKKIK  117 (117)
+T ss_dssp             CEEEEECSGGGGCCTTHHHHHHTTHHHHHTCSSSCCC
+T ss_pred             EEEEEEcCcccCCCHHHHHHHHHHHHHHhhhhhhhcC
+Confidence            9999999999999999999999999999999998764
+
+
+No 3
+>4JG4_A Ribonuclease P protein component (E.C.3.1.26.5); RNA-Binding, Endonuclease, HYDROLASE; HET: PPV; 2.296A {Bacillus subtilis}
+Probab=99.93  E-value=1.6e-30  Score=180.39  Aligned_cols=117  Identities=46%  Similarity=0.727  Sum_probs=107.8  Template_Neff=7.800
+
+Q 6D1R_1|Chain      2 AMGWEKAYRIKKNADFQRIYKKGHSVANRQFVVYTCNNKEIDHFRLGISVSKKLGNAVLRNKIKRAIRENFKVHKSHILA   81 (119)
+Q Consensus         2 ~~gf~K~~RLkk~~dF~~V~~~G~~~~~~~~~~~~~~~~~~~~~R~Gi~vsKKvg~AV~RNriKR~iRE~fR~~~~~l~~   81 (119)
+                      ++|||+.+||+++.||+.++++|+++++++|.+++.++++.+++|+||+||||+++||+||++||++||++|.+.+.+++
+T Consensus         1 ~~~l~k~~rL~~~~ef~~v~~~gk~~~~~~f~l~~~~~~~~~~~r~gi~vsKK~~~AV~RNriKR~lRe~~r~~~~~~~~   80 (119)
+T 4JG4_A            1 MAHLKKRNRLKKNEDFQKVFKHGTSVANRQFVLYTLDQAENDELRVGLSVSKKIGNAVMRNRIKRLIRQAFLEEKERLKE   80 (119)
+T ss_dssp             -CCCCGGGBCCCHHHHHHHHHHSEEEECSSEEEEEECCSSCSSCEEEEEECTTSCCHHHHHHHHHHHHHHHHHHTTTBCS
+T ss_pred             CCCCChhhccCCHHHHHHHHHhCceEecCeEEEEEEccCCCCCeEEEEEEeccccCHHHHHHHHHHHHHHHHHHHHhhCC
+Confidence            47999999999999999999999999999999999986435799999999999999999999999999999999887889
+
+
+Q 6D1R_1|Chain     82 KDIIVIARQPAKDMTTLQIQNSLEHVLKIAKVFNKKI  118 (119)
+Q Consensus        82 ~d~vii~r~~~~~~~~~~l~~~l~~llk~akl~~k~~  118 (119)
+                      +|+||++++++.+.+++++.+|+..+|++++.+.++.
+T Consensus        81 ~d~vi~~k~~~~~~~~~~l~~~l~~ll~~~~~~~~~~  117 (119)
+T 4JG4_A           81 KDYIIIARKAASQLTYEETKKSLQHLWRKSSLYKKSS  117 (119)
+T ss_dssp             CEEEEEECGGGGGCCHHHHHHHHHHHHHHTTCBCC--
+T ss_pred             CeEEEEEchhHhcCCHHHHHHHHHHHHHHhhhhhhcc
+Confidence            9999999999999999999999999999999887753
+
+
+No 4
+>2LJP_A Ribonuclease P protein component (E.C.3.1.26.5); RNaseP, C5, ribonuclease P, Ribozyme; NMR {Escherichia coli}
+Probab=99.91  E-value=6.2e-29  Score=172.53  Aligned_cols=113  Identities=23%  Similarity=0.428  Sum_probs=105.4  Template_Neff=7.800
+
+Q 6D1R_1|Chain      2 AMGWEKAYRIKKNADFQRIYKKGHSVANRQFVVYTCNNKEIDHFRLGISVSKKL-GNAVLRNKIKRAIRENFKVHKSHIL   80 (119)
+Q Consensus         2 ~~gf~K~~RLkk~~dF~~V~~~G~~~~~~~~~~~~~~~~~~~~~R~Gi~vsKKv-g~AV~RNriKR~iRE~fR~~~~~l~   80 (119)
+                      .+|||+.+||+++.||+.++++|+++++++|.+++.++. .+++|+||+||||+ ++||+||++||++||++|.+...++
+T Consensus         3 ~~~l~k~~rL~~~~df~~v~~~g~~~~~~~~~l~~~~~~-~~~~r~gi~V~KK~~k~AV~RNriKR~iRe~~r~~~~~l~   81 (119)
+T 2LJP_A            3 KLAFPRELRLLTPSQFTFVFQQPQRAGTPQITILGRLNS-LGHPRIGLTVAKKNVRRAHERNRIKRLTRESFRLRQHELP   81 (119)
+T ss_dssp             CSCCGGGGSCCCSCHHHHHHHSCCCCSCTTEEECCBCCC-CSCCEECCBCCTTTSCCHHHHHHHHHHHHHHHTTCTTTSC
+T ss_pred             CCCCCHHHcCCCHHHHHHHHhCCeeeecCcEEEEEEcCC-CCCCEEEEEEeCCcccchHHHHHHHHHHHHHHHHhhhcCC
+Confidence            489999999999999999999999999999999999875 67999999999996 6999999999999999999988888
+
+
+Q 6D1R_1|Chain     81 AKDIIVIARQPAKDMTTLQIQNSLEHVLKIAKVFN  115 (119)
+Q Consensus        81 ~~d~vii~r~~~~~~~~~~l~~~l~~llk~akl~~  115 (119)
+                      ++|+||++++++.+.+++++.+++.++++++....
+T Consensus        82 ~~d~v~i~k~~~~~~~~~~l~~~l~~ll~k~~~~~  116 (119)
+T 2LJP_A           82 AMDFVVVAKKGVADLDNRALSEALEKLWRRHCRLA  116 (119)
+T ss_dssp             SSEECEEECTTGGGSCHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCeEEEEECCccccCCHHHHHHHHHHHHHHHHHHh
+Confidence            99999999999999999999999999999887543
+
+
+No 5
+>1NZ0_A Ribonuclease P protein component (E.C.3.1.26.5); ENDONUCLEASE, RNASE, ALFA-BETA SANDWICH, DIMER; HET: SO4, MSE; 1.2A {Thermotoga maritima} SCOP: d.14.1.2
+Probab=99.90  E-value=8.1e-29  Score=171.83  Aligned_cols=110  Identities=35%  Similarity=0.523  Sum_probs=96.7  Template_Neff=7.700
+
+Q 6D1R_1|Chain      2 AMGWEKAYRIKKNADFQRIYKKGHSVANRQFVVYTCNNKEIDHFRLGISVSKKLGNAVLRNKIKRAIRENFKVHKSHIL-   80 (119)
+Q Consensus         2 ~~gf~K~~RLkk~~dF~~V~~~G~~~~~~~~~~~~~~~~~~~~~R~Gi~vsKKvg~AV~RNriKR~iRE~fR~~~~~l~-   80 (119)
+                      +.+||+.+||+++.||+.++++|+++.+++|.+++.++. .+++|+||+||||+++||+||++||++||+++.+.+.++ 
+T Consensus         3 ~~~~~k~~rL~~~~ef~~v~~~g~~~~~~~~~l~~~~~~-~~~~r~g~~VsKKv~~AV~RNriKR~lre~~r~~~~~~~~   81 (118)
+T 1NZ0_A            3 TESFTRRERLRLRRDFLLIFKEGKSLQNEYFVVLFRKNG-MDYSRLGIVVKRKFGKATRRNKLKRWVREIFRRNKGVIPK   81 (118)
+T ss_dssp             -------CCCCHHHHHHHHHHHSEEEECSSEEEEEEECS-SSSCEEEECCCGGGCSHHHHHHHHHHHHHHHHHHTTTSCS
+T ss_pred             CCCCCHHHhcCCHHHHHHHHHhCceEecCcEEEEEEeCC-CCCcEEEEEEeCccccHHHHHHHHHHHHHHHHHhcccCCC
+Confidence            468999999999999999999999999999999999875 689999999999999999999999999999999998775 
+
+
+Q 6D1R_1|Chain     81 AKDIIVIARQPA----KDMTTLQIQNSLEHVLKIAK  112 (119)
+Q Consensus        81 ~~d~vii~r~~~----~~~~~~~l~~~l~~llk~ak  112 (119)
+                      ++|+||+++++.    .+.+|+++.+++.+++.+++
+T Consensus        82 ~~~~v~~~k~~~~~~~~~~~~~~l~~~l~~ll~k~~  117 (118)
+T 1NZ0_A           82 GFDIVVIPRKKLSEEFERVDFWTVREKLLNLLKRIE  117 (118)
+T ss_dssp             SEEEEEEECHHHHHHGGGSCHHHHHHHHHHHHTTCC
+T ss_pred             CeEEEEEECcccchhhhCCCHHHHHHHHHHHHHHhc
+Confidence            899999999998    56899999999999998875
+
+
+No 6
+>6MAX_A Ribonuclease P protein component (E.C.3.1.26.5); P protein, RNA BINDING PROTEIN; HET: 9TF, SO4; 1.42A {Thermotoga maritima}
+Probab=99.88  E-value=1.6e-27  Score=164.27  Aligned_cols=105  Identities=37%  Similarity=0.533  Sum_probs=97.2  Template_Neff=7.700
+
+Q 6D1R_1|Chain      7 KAYRIKKNADFQRIYKKGHSVANRQFVVYTCNNKEIDHFRLGISVSKKLGNAVLRNKIKRAIRENFKVHKSHIL-AKDII   85 (119)
+Q Consensus         7 K~~RLkk~~dF~~V~~~G~~~~~~~~~~~~~~~~~~~~~R~Gi~vsKKvg~AV~RNriKR~iRE~fR~~~~~l~-~~d~v   85 (119)
+                      +.+||+++.||+.++++|+++.+++|.+++.++. .+++|+||+||||+++||.||++||++||+++.+.+.++ ++|+|
+T Consensus         3 ~~~rL~~~~ef~~v~~~gk~~~~~~~~l~~~~~~-~~~~r~givV~KK~~~AV~RNriKR~lre~~r~~~~~~~~~~~~v   81 (113)
+T 6MAX_A            3 HHERLRLRRDFLLIFKEGKSLQNEYFVVLFRKNG-LDYSRLGIVVKRKFGKATRRNKLKRWVREIFRRNKGVIPKGFDIV   81 (113)
+T ss_pred             ccccccCHHHHHHHHHhCeeEEcCcEEEEEEeCC-CCCcEEEEEEeCCcCCHHHHHHHHHHHHHHHHHhcccCCCCeEEE
+Confidence            4579999999999999999999999999999875 689999999999999999999999999999999988775 79999
+
+
+Q 6D1R_1|Chain     86 VIARQPA----KDMTTLQIQNSLEHVLKIAK  112 (119)
+Q Consensus        86 ii~r~~~----~~~~~~~l~~~l~~llk~ak  112 (119)
+                      |+++++.    .+.+|+++.+|+..+++++.
+T Consensus        82 ii~k~~~~~~~~~~~~~~l~~~l~~ll~k~~  112 (113)
+T 6MAX_A           82 VIPRKKLSEEFERVDFWTVREKLLNLLKRIE  112 (113)
+T ss_pred             EEEcchhhhhhcCCCHHHHHHHHHHHHHHHc
+Confidence            9999997    57899999999999998764
+
+
+No 7
+>4OXP_A Ribonuclease, Rne/Rng family protein; RNase E, endoribonuclease, HYDROLASE; 2.1A {Caulobacter crescentus}
+Probab=88.41  E-value=0.23  Score=40.83  Aligned_cols=61  Identities=18%  Similarity=0.257  Sum_probs=44.7  Template_Neff=5.400
+
+Q 6D1R_1|Chain     48 GISVSKKLGNAVLRNKIKRAIRENFKVHKSHILAKDIIVIARQPAKDMTTLQIQNSLEHVLKIAKVFN  115 (119)
+Q Consensus        48 Gi~vsKKvg~AV~RNriKR~iRE~fR~~~~~l~~~d~vii~r~~~~~~~~~~l~~~l~~llk~akl~~  115 (119)
+                      ++.+|+|+.....|++++..+.+...      + ..+=++++..+...+.++|.+|+..|++....+.
+T Consensus       213 ~v~vSkKI~~~~~r~rLk~~~~~~~~------~-~~~GvIvRT~A~~~~~~~l~~el~~L~~~w~~I~  273 (290)
+T 4OXP_A          213 GGGISRKITAVTDRKRLKSVVQSLDV------P-QGMGLIVRTAGAKRTKAEIKRDYEYLLRLWENIR  273 (290)
+T ss_dssp             CCEECSCCCSHHHHHHHHHHHHHTCC------C-TTCEEEECGGGTTCCTTHHHHHHHHHHHHHHHHH
+T ss_pred             cceeeecCCCHHHHHHHHHHHHhcCC------C-CCceEEEEecccCCCHHHHHHHHHHHHHHHHHHH
+Confidence            67888898877788888777766553      1 2233456777878888999999999888776553
+
+
+No 8
+>5F6C_B Ribonuclease E/RNA Complex; ribonuclease, hydrolytic mechanism, regulatory RNA; 3.002A {Escherichia coli (strain K12)}
+Probab=77.92  E-value=1.5  Score=38.57  Aligned_cols=61  Identities=18%  Similarity=0.210  Sum_probs=39.8  Template_Neff=7.100
+
+Q 6D1R_1|Chain     48 GISVSKKLGNAVLRNKIKRAIRENFKVHKSHILAKDIIVIARQPAKDMTTLQIQNSLEHVLKIAKVFNK  116 (119)
+Q Consensus        48 Gi~vsKKvg~AV~RNriKR~iRE~fR~~~~~l~~~d~vii~r~~~~~~~~~~l~~~l~~llk~akl~~k  116 (119)
+                      ++.+|+|+... .|++++..+.+..      . +.++=++++..+.+.+.+++.+|+..|.+....+.+
+T Consensus       138 ~i~vS~kI~~~-~r~rL~~l~~~~~------~-~~~~GvIiRT~A~~~~~e~l~~El~~L~~~w~~i~~  198 (513)
+T 5F6C_B          138 AGGISRRIEGD-DRTELKEALASLE------L-PEGMGLIVRTAGVGKSAEALQWDLSFRLKHWEAIKK  198 (513)
+T ss_dssp             CEEECSSCCTH-HHHHHHHHHHTSC------C-CTTCEEEECGGGTTCCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CceeecccCch-hHHHHHHHHHhcC------C-CCCcEEEEEeccCCCCHHHHHHHHHHHHHHHHHHHH
+Confidence            46788888643 4666554443332      1 122334567888888999999999998887776543
+
+
+No 9
+>5F6C_A Ribonuclease E/RNA Complex; ribonuclease, hydrolytic mechanism, regulatory RNA; 3.002A {Escherichia coli (strain K12)}
+Probab=74.83  E-value=2.1  Score=37.68  Aligned_cols=61  Identities=18%  Similarity=0.195  Sum_probs=38.6  Template_Neff=7.100
+
+Q 6D1R_1|Chain     48 GISVSKKLGNAVLRNKIKRAIRENFKVHKSHILAKDIIVIARQPAKDMTTLQIQNSLEHVLKIAKVFNK  116 (119)
+Q Consensus        48 Gi~vsKKvg~AV~RNriKR~iRE~fR~~~~~l~~~d~vii~r~~~~~~~~~~l~~~l~~llk~akl~~k  116 (119)
+                      ++.+|+|+... .|++++..+.+..      .+ .++=++++..+.+.+.++|.+|+..|.+....+.+
+T Consensus       138 ~v~vSrkI~~~-~r~rL~~l~~~~~------~~-~~~GvIiRT~A~~~~~e~l~~El~~L~~~w~~i~~  198 (512)
+T 5F6C_A          138 AGGISRRIEGD-DRTELKEALASLE------LP-EGMGLIVRTAGVGKSAEALQWDLSFRLKHWEAIKK  198 (512)
+T ss_dssp             CCEECTTCCTH-HHHHHHHHHTTSC------CC-TTCEEEECGGGTTCCTTTHHHHHHHHHHHHHHHHH
+T ss_pred             CceeeeecCcc-hHHHHHHHHHhcC------CC-CCcEEEEEeccCCCCHHHHHHHHHHHHHHHHHHHH
+Confidence            36778887643 4555544433322      11 22334567788888999999999998887765543
+
+
+No 10
+>2BX2_L RIBONUCLEASE E (E.C.3.1.4.-); RNA-BINDING, RNA TURNOVER, RNA PROCESSING; 2.85A {ESCHERICHIA COLI}
+Probab=74.52  E-value=2.2  Score=37.67  Aligned_cols=61  Identities=18%  Similarity=0.210  Sum_probs=36.2  Template_Neff=7.000
+
+Q 6D1R_1|Chain     48 GISVSKKLGNAVLRNKIKRAIRENFKVHKSHILAKDIIVIARQPAKDMTTLQIQNSLEHVLKIAKVFNK  116 (119)
+Q Consensus        48 Gi~vsKKvg~AV~RNriKR~iRE~fR~~~~~l~~~d~vii~r~~~~~~~~~~l~~~l~~llk~akl~~k  116 (119)
+                      ++.+|+|+... .|++++-.+.+..      . +.++=++++..+.+.+.++|.+|+..|.+....+.+
+T Consensus       143 ~i~vSrkI~~~-~r~rL~~l~~~~~------~-~~~~GvIiRT~A~~~~~e~l~~El~~L~~~w~~I~~  203 (517)
+T 2BX2_L          143 AGGISRRIEGD-DRTELKEALASLE------L-PEGMGLIVRTAGVGKSAEALQWDLSFRLKHWEAIKK  203 (517)
+T ss_dssp             CCEECTTCC-------HHHHHTTSC------C-CTTCEEEECGGGGGCCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CceeecccCcc-hHHHHHHHHHhcC------C-CCCCEEEEEeccCCCCHHHHHHHHHHHHHHHHHHHH
+Confidence            36778888643 4665554433322      1 122334567888888999999999998887775543
+
+
+No 11
+>3B0Z_A Flagellar biosynthetic protein flhB; flagella, type III secretion system; 2.45A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=32.91  E-value=37  Score=21.07  Aligned_cols=32  Identities=22%  Similarity=0.365  Sum_probs=21.4  Template_Neff=5.000
+
+Q 6D1R_1|Chain     56 GNAVLRNKIKRAIRENFKV-HKSHILAKDIIVI   87 (119)
+Q Consensus        56 g~AV~RNriKR~iRE~fR~-~~~~l~~~d~vii   87 (119)
+                      |....+.+.|++-+|+.+. .....+..|+||.
+T Consensus        19 GdP~iK~~rr~~~~e~~~~~~~~~v~~A~vvIt   51 (52)
+T 3B0Z_A           19 GDPHVKGKIRQMQRAAAQRRMMEDVPKADVIVT   51 (52)
+T ss_dssp             HCHHHHHHHHHHHHHHHHHHHHHTGGGCSEEEE
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHhcCcCCEEee
+Confidence            4566778888888888873 2334566777763
+
+
+No 12
+>3BZL_B EscU; Auto cleavage protein, Intein, T3SS; 1.71A {Escherichia coli}
+Probab=29.69  E-value=46  Score=20.91  Aligned_cols=32  Identities=22%  Similarity=0.232  Sum_probs=21.0  Template_Neff=4.700
+
+Q 6D1R_1|Chain     56 GNAVLRNKIKRAIRENFKV-HKSHILAKDIIVI   87 (119)
+Q Consensus        56 g~AV~RNriKR~iRE~fR~-~~~~l~~~d~vii   87 (119)
+                      |....+.+.|++-+|+.+. .....+..|+||.
+T Consensus        21 GdP~iK~~rr~~~re~~~~~~~~~v~~A~vVI~   53 (54)
+T 3BZL_B           21 GNPEIKGERRRLHSEIQSGSLANNIKKSTVIVK   53 (54)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHhcCcCCEEee
+Confidence            3556677888888888773 2334566777763
+
+
+No 13
+>3BZY_A EscU; Auto cleavage protein, flagella, Intein; 1.2A {Escherichia coli} SCOP: d.367.1.1
+Probab=29.69  E-value=46  Score=20.91  Aligned_cols=32  Identities=22%  Similarity=0.232  Sum_probs=21.0  Template_Neff=4.700
+
+Q 6D1R_1|Chain     56 GNAVLRNKIKRAIRENFKV-HKSHILAKDIIVI   87 (119)
+Q Consensus        56 g~AV~RNriKR~iRE~fR~-~~~~l~~~d~vii   87 (119)
+                      |....+.+.|++-+|+.+. .....+..|+||.
+T Consensus        21 GdP~iK~~rr~~~re~~~~~~~~~v~~A~vVI~   53 (54)
+T 3BZY_A           21 GNPEIKGERRRLHSEIQSGSLANNIKKSTVIVK   53 (54)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHhcCcCCEEee
+Confidence            3556677888888888773 2334566777763
+
+
+No 14
+>5T87_G CdiI immunity protein, CdiA toxin; Contact-dependent growth inhibition, toxin, antitoxin; HET: MSE; 2.4A {Cupriavidus taiwanensis (strain DSM 17343 / BCRC 17206 / CIP 107171 / LMG 19424 / R1)}
+Probab=28.79  E-value=48  Score=22.41  Aligned_cols=21  Identities=5%  Similarity=0.077  Sum_probs=17.2  Template_Neff=3.400
+
+Q 6D1R_1|Chain     95 MTTLQIQNSLEHVLKIAKVFN  115 (119)
+Q Consensus        95 ~~~~~l~~~l~~llk~akl~~  115 (119)
+                      -+|++|..+++..|.+++..+
+T Consensus        50 R~W~~l~~~m~n~L~kaG~~n   70 (76)
+T 5T87_G           50 RAWKDLTSDMQNALVRGGYVD   70 (76)
+T ss_dssp             ECGGGSCHHHHHHHHHHTSBC
+T ss_pred             EeHHHcCHHHHHHHHHcCCcC
+Confidence            378899999999998888654
+
+
+No 15
+>5T87_H CdiI immunity protein, CdiA toxin; Contact-dependent growth inhibition, toxin, antitoxin; HET: MSE; 2.4A {Cupriavidus taiwanensis (strain DSM 17343 / BCRC 17206 / CIP 107171 / LMG 19424 / R1)}
+Probab=28.79  E-value=48  Score=22.41  Aligned_cols=21  Identities=5%  Similarity=0.077  Sum_probs=17.2  Template_Neff=3.400
+
+Q 6D1R_1|Chain     95 MTTLQIQNSLEHVLKIAKVFN  115 (119)
+Q Consensus        95 ~~~~~l~~~l~~llk~akl~~  115 (119)
+                      -+|++|..+++..|.+++..+
+T Consensus        50 R~W~~l~~~m~n~L~kaG~~n   70 (76)
+T 5T87_H           50 RAWKDLTSDMQNALVRGGYVD   70 (76)
+T ss_dssp             ECGGGSCHHHHHHHHHTTCCC
+T ss_pred             EeHHHcCHHHHHHHHHcCCcC
+Confidence            378899999999998888654
+
+
+No 16
+>3C01_B Surface presentation of antigens protein; Auto cleavage protein, flagella, EscU; HET: CYS, SO4; 2.6A {Salmonella typhimurium}
+Probab=28.59  E-value=49  Score=20.14  Aligned_cols=32  Identities=28%  Similarity=0.339  Sum_probs=20.6  Template_Neff=5.200
+
+Q 6D1R_1|Chain     56 GNAVLRNKIKRAIRENFKVH-KSHILAKDIIVI   87 (119)
+Q Consensus        56 g~AV~RNriKR~iRE~fR~~-~~~l~~~d~vii   87 (119)
+                      |....+.+.|++-+|+.+.. ....+..|+||.
+T Consensus        15 GdP~iK~~rr~~~~e~~~~~~~~~v~~A~vvi~   47 (48)
+T 3C01_B           15 GNPEVKSKRREVHMEILSEQVKSDIENSRLIVA   47 (48)
+T ss_pred             CCHHHHHHHHHHHHHHHhHHHHhhhhcCCeeee
+Confidence            35566777888888887632 334566777763
+
+
+No 17
+>2ML9_A Yop proteins translocation protein U; MEMBRANE PROTEIN, YERSINIA, TYPE III; NMR {Yersinia pseudotuberculosis IP 32953}
+Probab=27.80  E-value=52  Score=20.94  Aligned_cols=32  Identities=13%  Similarity=0.243  Sum_probs=21.0  Template_Neff=4.900
+
+Q 6D1R_1|Chain     56 GNAVLRNKIKRAIRENFKV-HKSHILAKDIIVI   87 (119)
+Q Consensus        56 g~AV~RNriKR~iRE~fR~-~~~~l~~~d~vii   87 (119)
+                      |....+.+.|++-+|+.+. .....+..|+||.
+T Consensus        25 GdP~iK~~rr~~~re~~~~~~~~~v~~A~vVIt   57 (58)
+T 2ML9_A           25 GSPEIKSKRRQFHQEIQSRNMRENVKRSSVVVA   57 (58)
+T ss_dssp             TCTHHHHHHHHHHHHHHTTCHHHHSCSSCCSCC
+T ss_pred             CCHHHHHHHHHHHHHHHhhHHHhhhccCCeEee
+Confidence            4556677888888888763 2334567777763
+
+
+No 18
+>6EJP_A Yop proteins translocation protein U; AUTOCLEAVAGE, TYPE III SECRETION SYSTEM; HET: B8E, PO4; 2.48A {Yersinia pestis}
+Probab=27.80  E-value=52  Score=20.94  Aligned_cols=32  Identities=13%  Similarity=0.243  Sum_probs=21.0  Template_Neff=4.900
+
+Q 6D1R_1|Chain     56 GNAVLRNKIKRAIRENFKV-HKSHILAKDIIVI   87 (119)
+Q Consensus        56 g~AV~RNriKR~iRE~fR~-~~~~l~~~d~vii   87 (119)
+                      |....+.+.|++-+|+.+. .....+..|+||.
+T Consensus        25 GdP~iK~~rr~~~re~~~~~~~~~v~~A~vVIt   57 (58)
+T 6EJP_A           25 GSPEIKSKRRQFHQEIQSRNMRENVKRSSVVVA   57 (58)
+T ss_dssp             TCHHHHHHHHHHHHHHHHHHHHHHHHTCSEEEE
+T ss_pred             CCHHHHHHHHHHHHHHHhhHHHhhhccCCeEee
+Confidence            4556677888888888763 2334567777763
+
+
+No 19
+>4JM1_A hypothetical protein; ORFan, new alpha/beta fold, Structural; 1.4A {Parabacteroides distasonis}
+Probab=24.12  E-value=67  Score=21.71  Aligned_cols=16  Identities=38%  Similarity=0.675  Sum_probs=10.4  Template_Neff=1.500
+
+Q 6D1R_1|Chain     44 HFRLGISVSKKLGNAV   59 (119)
+Q Consensus        44 ~~R~Gi~vsKKvg~AV   59 (119)
+                      ..-=|-|+++++|+|-
+T Consensus        68 kF~~G~V~G~RIGKA~   83 (84)
+T 4JM1_A           68 KFEQGAVVGKRIGKAY   83 (84)
+T ss_dssp             EEETTEEESCEEEEEE
+T ss_pred             eecccceeccccceec
+Confidence            3344677888887763
+
+
+No 20
+>2BSH_A SYCT; TYPE III SECRETION, YERSINIA, CHAPERONE; HET: MSE; 1.9A {YERSINIA ENTEROCOLITICA}
+Probab=22.17  E-value=77  Score=22.04  Aligned_cols=36  Identities=14%  Similarity=0.103  Sum_probs=28.0  Template_Neff=8.700
+
+Q 6D1R_1|Chain     82 KDIIVIARQPAKDMTTLQIQNSLEHVLKIAKVFNKK  117 (119)
+Q Consensus        82 ~d~vii~r~~~~~~~~~~l~~~l~~llk~akl~~k~  117 (119)
+                      ..+++..+.+...++.+.+.+.++.++..+..+.+.
+T Consensus        82 ~~~vL~~r~~l~~l~~~~l~~~l~~fi~~a~~w~~~  117 (125)
+T 2BSH_A           82 GKSILWSQQSLVGLDIDEMQAWLERFIDDIEQRKEP  117 (125)
+T ss_dssp             TEEEEEEEEESTTCCHHHHHHHHHHHHHHHHHHHST
+T ss_pred             CeEEEEEeeeccCCCHHHHHHHHHHHHHHHHHHhch
+Confidence            455666677777889999999999988888776654
+
+
+No 21
+>2LSE_A Four Helix Bundle Protein; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {artificial gene}
+Probab=21.23  E-value=83  Score=21.57  Aligned_cols=28  Identities=21%  Similarity=0.208  Sum_probs=22.5  Template_Neff=1.000
+
+Q 6D1R_1|Chain     89 RQPAKDMTTLQIQNSLEHVLKIAKVFNK  116 (119)
+Q Consensus        89 r~~~~~~~~~~l~~~l~~llk~akl~~k  116 (119)
+                      .+.+.+.-.+++.++|+.+|++++.+-+
+T Consensus        62 ykdapnavmeqlleeiekllkkagslvp   89 (101)
+T 2LSE_A           62 YKDAPNAVMEQLLEEIEKLLKKAGSLVP   89 (101)
+T ss_dssp             HHHCCCSHHHHHHHHHHHHHHHHCTTCC
+T ss_pred             hhhccHHHHHHHHHHHHHHHHHccccCC
+Confidence            4556667788999999999999987754
+
+
+No 22
+>3B1S_C Flagellar biosynthetic protein flhB; flagella, type III secretion system; 2.55A {Aquifex aeolicus}
+Probab=21.03  E-value=84  Score=19.51  Aligned_cols=32  Identities=19%  Similarity=0.371  Sum_probs=19.1  Template_Neff=5.000
+
+Q 6D1R_1|Chain     56 GNAVLRNKIKRAIRENFKV-HKSHILAKDIIVI   87 (119)
+Q Consensus        56 g~AV~RNriKR~iRE~fR~-~~~~l~~~d~vii   87 (119)
+                      |..-.+.+.|++-+|+... .....+..|+||.
+T Consensus        19 GdP~iK~~rr~~~~e~~~~~~~~~v~~A~vvi~   51 (52)
+T 3B1S_C           19 GHPEVKSRIKARMRELAKSRMMAEVPKATVVIT   51 (52)
+T ss_dssp             --CHHHHHHHHHHHHHHHHHHHHHGGGCSEEEE
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHhhcCCCCeEee
+Confidence            3455667778888888763 2333556777653
+
+
+No 23
+>1JYA_A YOPE regulator; SPECIFIC CHAPERONE, TYPE III SECRETION; HET: MSE; 1.74A {Yersinia pseudotuberculosis} SCOP: d.198.1.1
+Probab=20.12  E-value=91  Score=21.76  Aligned_cols=35  Identities=17%  Similarity=0.282  Sum_probs=25.2  Template_Neff=8.900
+
+Q 6D1R_1|Chain     83 DIIVIARQPAKDMTTLQIQNSLEHVLKIAKVFNKK  117 (119)
+Q Consensus        83 d~vii~r~~~~~~~~~~l~~~l~~llk~akl~~k~  117 (119)
+                      .+++..+-+...++.+++.+.+..++..+..+.+.
+T Consensus        86 ~lvL~~~~~l~~l~~~~l~~~l~~fi~~a~~w~~~  120 (130)
+T 1JYA_A           86 HPVLWNRQPLNSLDNNSLYTQLEMLVQGAERLQTS  120 (130)
+T ss_dssp             EEEEEEEEEGGGCCTTHHHHHHHHHHHHHHHTC--
+T ss_pred             eEEEEEeecHhhCCHHHHHHHHHHHHHHHHHHHHh
+Confidence            44555666677888999999999988887766553
+
+
+No 24
+>2VT1_A SURFACE PRESENTATION OF ANTIGENS PROTEIN; SHIGELLA FLEXNERI, SPECIFICITY SWITCH, VIRULENCE; 2.0A {SHIGELLA FLEXNERI} SCOP: d.367.1.1
+Probab=20.01  E-value=91  Score=19.36  Aligned_cols=32  Identities=19%  Similarity=0.251  Sum_probs=11.1  Template_Neff=5.000
+
+Q 6D1R_1|Chain     56 GNAVLRNKIKRAIRENFKV-HKSHILAKDIIVI   87 (119)
+Q Consensus        56 g~AV~RNriKR~iRE~fR~-~~~~l~~~d~vii   87 (119)
+                      |..-.+.+.|++-+|+.+. .....+..|+||.
+T Consensus        19 GdP~iK~~rr~~~~e~~~~~~~~~v~~A~vVit   51 (52)
+T 2VT1_A           19 GHFETKSRRRELHIEILSEQTKSDIRNSKLVVM   51 (52)
+T ss_dssp             -------------CCCSCHHHHHHHHTCSEEEE
+T ss_pred             CCHHHHHHHHHHHHHHHhHhHhhhhccCCeEee
+Confidence            3455566777777777763 2333566777763
+
+
