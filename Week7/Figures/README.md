@@ -1,3 +1,4 @@
-# Dive in to computational physical chemistry
-This repository contains the inputs and lab tasks for NYU-CHEM-GA-2671.
-If you are in this class, you will fork this repository and pull the latest updates. 
+### Put a note describing which is which based on color.
+## Green: 6D1R structure predcited by Colab.
+## Orange: 6D1R structure predcited by Greene AF2.
+## Red: Ground truth crystal structure.  
