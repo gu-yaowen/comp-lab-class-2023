@@ -1,0 +1,345 @@
+2023-11-16:13:34:37,596 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'UHF', 'function_kwargs': {}}
+2023-11-16:13:34:37,599 INFO     [psi4.driver.driver:499] Compute energy(): method=scf, basis=6-31g**, molecule=default, nre=6.17454856754189
+2023-11-16:13:34:37,884 INFO     [psi4.driver.driver:502] Return energy(): -38.92533462893707
+2023-11-16:13:35:08,994 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'function_kwargs': {}}
+2023-11-16:13:35:08,996 INFO     [psi4.driver.driver:617] Compute gradient(): method=scf, basis=cc-pvdz, molecule=default, nre=9.168193296424349
+2023-11-16:13:35:09,400 INFO     [psi4.driver.driver:620] Return gradient(): -76.02663273512377
+2023-11-16:13:35:09,401 INFO     [psi4.driver.driver:621] [[ 0.          0.         -0.01764163]
+ [ 0.         -0.01243841  0.00882081]
+ [-0.          0.01243841  0.00882081]]
+2023-11-16:13:35:09,433 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'CART_HESS_READ': 0, 'SCF__GUESS': 'READ', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'function_kwargs': {}}
+2023-11-16:13:35:09,436 INFO     [psi4.driver.driver:617] Compute gradient(): method=scf, basis=cc-pvdz, molecule=default, nre=9.309900182611623
+2023-11-16:13:35:09,689 INFO     [psi4.driver.driver:620] Return gradient(): -76.02702266602294
+2023-11-16:13:35:09,689 INFO     [psi4.driver.driver:621] [[-0.          0.         -0.00008799]
+ [-0.          0.00157041  0.000044  ]
+ [ 0.         -0.00157041  0.000044  ]]
+2023-11-16:13:35:09,715 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'CART_HESS_READ': 0, 'SCF__GUESS': 'READ', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'function_kwargs': {}}
+2023-11-16:13:35:09,717 INFO     [psi4.driver.driver:617] Compute gradient(): method=scf, basis=cc-pvdz, molecule=default, nre=9.300665063058293
+2023-11-16:13:35:09,944 INFO     [psi4.driver.driver:620] Return gradient(): -76.02703272937481
+2023-11-16:13:35:09,944 INFO     [psi4.driver.driver:621] [[-0.          0.          0.00008587]
+ [ 0.         -0.00007268 -0.00004293]
+ [-0.          0.00007268 -0.00004293]]
+2023-11-16:13:35:16,717 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'function_kwargs': {}}
+2023-11-16:13:35:16,743 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'SCF__D_CONVERGENCE': 1e-08, 'SCF__E_CONVERGENCE': 1e-08, 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'function_kwargs': {}}
+2023-11-16:13:35:16,745 INFO     [psi4.driver.driver:617] Compute gradient(): method=scf, basis=cc-pvdz, molecule=default, nre=9.300665063058295
+2023-11-16:13:35:17,81 INFO     [psi4.driver.driver:620] Return gradient(): -76.02703272937592
+2023-11-16:13:35:17,81 INFO     [psi4.driver.driver:621] [[ 0.          0.          0.00008586]
+ [ 0.         -0.00007268 -0.00004293]
+ [-0.          0.00007268 -0.00004293]]
+2023-11-16:13:35:17,82 INFO     [psi4.driver.driver:1437] Compute hessian(): method=scf, basis=cc-pvdz, molecule=default, nre=9.300665063058295
+2023-11-16:13:35:17,837 INFO     [psi4.driver.driver:1441] Return hessian(): -76.0270327293759
+2023-11-16:13:35:17,839 INFO     [psi4.driver.driver:1442] [[-0.00007858  0.          0.          0.00003929  0.         -0.          0.00003929 -0.         -0.        ]
+ [ 0.          0.78584954  0.          0.         -0.39292477  0.30336826 -0.         -0.39292477 -0.30336826]
+ [ 0.          0.          0.53846879 -0.          0.23574776 -0.26923439 -0.         -0.23574776 -0.26923439]
+ [ 0.00003929  0.         -0.          0.00000603 -0.          0.         -0.00004532 -0.          0.        ]
+ [ 0.         -0.39292477  0.23574776 -0.          0.42766634 -0.26955801 -0.         -0.03474157  0.03381025]
+ [-0.          0.30336826 -0.26923439  0.         -0.26955801  0.25174302  0.         -0.03381025  0.01749137]
+ [ 0.00003929 -0.         -0.         -0.00004532 -0.          0.          0.00000603  0.          0.        ]
+ [-0.         -0.39292477 -0.23574776 -0.         -0.03474157 -0.03381025  0.          0.42766634  0.26955801]
+ [-0.         -0.30336826 -0.26923439  0.          0.03381025  0.01749137  0.          0.26955801  0.25174302]]
+2023-11-16:13:35:40,461 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'function_kwargs': {}}
+2023-11-16:13:35:40,486 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'SCF__D_CONVERGENCE': 1e-08, 'SCF__E_CONVERGENCE': 1e-08, 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'function_kwargs': {}}
+2023-11-16:13:35:40,488 INFO     [psi4.driver.driver:617] Compute gradient(): method=scf, basis=cc-pvdz, molecule=default, nre=9.300665063058295
+2023-11-16:13:35:40,812 INFO     [psi4.driver.driver:620] Return gradient(): -76.0270327293759
+2023-11-16:13:35:40,812 INFO     [psi4.driver.driver:621] [[ 0.          0.          0.00008586]
+ [ 0.         -0.00007268 -0.00004293]
+ [-0.          0.00007268 -0.00004293]]
+2023-11-16:13:35:40,813 INFO     [psi4.driver.driver:1437] Compute hessian(): method=scf, basis=cc-pvdz, molecule=default, nre=9.300665063058295
+2023-11-16:13:35:41,457 INFO     [psi4.driver.driver:1441] Return hessian(): -76.0270327293759
+2023-11-16:13:35:41,458 INFO     [psi4.driver.driver:1442] [[-0.00007858  0.          0.          0.00003929  0.         -0.          0.00003929 -0.         -0.        ]
+ [ 0.          0.78584954  0.          0.         -0.39292477  0.30336826 -0.         -0.39292477 -0.30336826]
+ [ 0.          0.          0.53846879 -0.          0.23574776 -0.26923439 -0.         -0.23574776 -0.26923439]
+ [ 0.00003929  0.         -0.          0.00000603 -0.          0.         -0.00004532 -0.          0.        ]
+ [ 0.         -0.39292477  0.23574776 -0.          0.42766634 -0.26955801 -0.         -0.03474157  0.03381025]
+ [-0.          0.30336826 -0.26923439  0.         -0.26955801  0.25174302  0.         -0.03381025  0.01749137]
+ [ 0.00003929 -0.         -0.         -0.00004532 -0.          0.          0.00000603  0.          0.        ]
+ [-0.         -0.39292477 -0.23574776 -0.         -0.03474157 -0.03381025  0.          0.42766634  0.26955801]
+ [-0.         -0.30336826 -0.26923439  0.          0.03381025  0.01749137  0.          0.26955801  0.25174302]]
+2023-11-16:13:36:14,960 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:36:14,963 INFO     [psi4.driver.driver:499] Compute energy(): method=sapt0, basis=jun-cc-pvdz, molecule=default, nre=85.1890645312758
+2023-11-16:13:36:19,560 INFO     [psi4.driver.driver:502] Return energy(): -0.0022355823909805178
+2023-11-16:13:36:41,30 INFO     [psi4.driver.task_planner:235] PLANNING MB:  mc_level_idx=0 packet={'driver': 'energy', 'method': 'ccsd(t)', 'basis': 'aug-cc-pvdz', 'keywords': {'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}}
+2023-11-16:13:36:41,31 INFO     [psi4.driver.driver_nbody:952] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  // ManyBody Setup: N-Body Levels [1, 2]//
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:36:41,31 INFO     [psi4.driver.driver_nbody:513]         Number of 1-body computations:     2
+        Number of 2-body computations:     1
+2023-11-16:13:36:41,33 INFO     [psi4.driver.driver_nbody:1014] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //       ManyBody Computations       //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:36:41,55 INFO     [psi4.driver.task_base:159] <<< JSON launch ... c2v 0.0
+2023-11-16:13:36:47,457 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:36:47,460 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=0.0
+2023-11-16:13:36:48,275 INFO     [psi4.driver.driver:502] Return energy(): -128.70945659126352
+2023-11-16:13:36:48,291 INFO     [psi4.driver.task_base:159] <<< JSON launch ... c2v 0.0
+2023-11-16:13:36:48,320 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:36:48,324 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=0.0
+2023-11-16:13:36:49,157 INFO     [psi4.driver.driver:502] Return energy(): -128.70945659126357
+2023-11-16:13:36:49,173 INFO     [psi4.driver.task_base:159] <<< JSON launch ... d2h 21.167088426800007
+2023-11-16:13:36:49,202 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:36:49,205 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=21.167088426800007
+2023-11-16:13:36:49,988 INFO     [psi4.driver.driver:502] Return energy(): -257.41770426822154
+2023-11-16:13:36:50,6 INFO     [psi4.driver.driver_nbody:1364] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //          ManyBody Results         //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:36:50,6 INFO     [psi4.driver.driver_nbody:394] 
+   ==> N-Body: Counterpoise Corrected (CP) energies <==
+
+        n-Body     Total Energy            Interaction Energy                          N-body Contribution to Interaction Energy
+                   [Eh]                    [Eh]                  [kcal/mol]            [Eh]                  [kcal/mol]
+             1  N/A                         0.000000000000        0.000000000000        0.000000000000        0.000000000000
+  FULL/RTN   2  N/A                         0.001208914306        0.758605179718        0.001208914306        0.758605179718
+
+
+2023-11-16:13:36:50,72 INFO     [psi4.driver.task_planner:235] PLANNING MB:  mc_level_idx=0 packet={'driver': 'energy', 'method': 'ccsd(t)', 'basis': 'aug-cc-pvdz', 'keywords': {'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}}
+2023-11-16:13:36:50,72 INFO     [psi4.driver.driver_nbody:952] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  // ManyBody Setup: N-Body Levels [1, 2]//
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:36:50,72 INFO     [psi4.driver.driver_nbody:513]         Number of 1-body computations:     2
+        Number of 2-body computations:     1
+2023-11-16:13:36:50,74 INFO     [psi4.driver.driver_nbody:1014] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //       ManyBody Computations       //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:36:50,95 INFO     [psi4.driver.task_base:159] <<< JSON launch ... c2v 0.0
+2023-11-16:13:36:50,125 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:36:50,128 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=0.0
+2023-11-16:13:36:50,837 INFO     [psi4.driver.driver:502] Return energy(): -128.70937284019783
+2023-11-16:13:36:50,852 INFO     [psi4.driver.task_base:159] <<< JSON launch ... c2v 0.0
+2023-11-16:13:36:50,882 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:36:50,885 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=0.0
+2023-11-16:13:36:51,600 INFO     [psi4.driver.driver:502] Return energy(): -128.70937284019783
+2023-11-16:13:36:51,616 INFO     [psi4.driver.task_base:159] <<< JSON launch ... d2h 17.63924035566668
+2023-11-16:13:36:51,646 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:36:51,649 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=17.63924035566668
+2023-11-16:13:36:52,402 INFO     [psi4.driver.driver:502] Return energy(): -257.4187202339189
+2023-11-16:13:36:52,421 INFO     [psi4.driver.driver_nbody:1364] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //          ManyBody Results         //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:36:52,422 INFO     [psi4.driver.driver_nbody:394] 
+   ==> N-Body: Counterpoise Corrected (CP) energies <==
+
+        n-Body     Total Energy            Interaction Energy                          N-body Contribution to Interaction Energy
+                   [Eh]                    [Eh]                  [kcal/mol]            [Eh]                  [kcal/mol]
+             1  N/A                         0.000000000000        0.000000000000        0.000000000000        0.000000000000
+  FULL/RTN   2  N/A                         0.000025446477        0.015967905229        0.000025446477        0.015967905229
+
+
+2023-11-16:13:36:52,486 INFO     [psi4.driver.task_planner:235] PLANNING MB:  mc_level_idx=0 packet={'driver': 'energy', 'method': 'ccsd(t)', 'basis': 'aug-cc-pvdz', 'keywords': {'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}}
+2023-11-16:13:36:52,486 INFO     [psi4.driver.driver_nbody:952] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  // ManyBody Setup: N-Body Levels [1, 2]//
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:36:52,486 INFO     [psi4.driver.driver_nbody:513]         Number of 1-body computations:     2
+        Number of 2-body computations:     1
+2023-11-16:13:36:52,488 INFO     [psi4.driver.driver_nbody:1014] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //       ManyBody Computations       //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:36:52,510 INFO     [psi4.driver.task_base:159] <<< JSON launch ... c2v 0.0
+2023-11-16:13:36:52,540 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:36:52,543 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=0.0
+2023-11-16:13:36:53,246 INFO     [psi4.driver.driver:502] Return energy(): -128.70931531405265
+2023-11-16:13:36:53,261 INFO     [psi4.driver.task_base:159] <<< JSON launch ... c2v 0.0
+2023-11-16:13:36:53,291 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:36:53,294 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=0.0
+2023-11-16:13:36:53,997 INFO     [psi4.driver.driver:502] Return energy(): -128.70931531405233
+2023-11-16:13:36:54,14 INFO     [psi4.driver.task_base:159] <<< JSON launch ... d2h 13.229430266749995
+2023-11-16:13:36:54,44 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:36:54,48 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=13.229430266749995
+2023-11-16:13:36:54,788 INFO     [psi4.driver.driver:502] Return energy(): -257.41865646806457
+2023-11-16:13:36:54,804 INFO     [psi4.driver.driver_nbody:1364] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //          ManyBody Results         //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:36:54,805 INFO     [psi4.driver.driver_nbody:394] 
+   ==> N-Body: Counterpoise Corrected (CP) energies <==
+
+        n-Body     Total Energy            Interaction Energy                          N-body Contribution to Interaction Energy
+                   [Eh]                    [Eh]                  [kcal/mol]            [Eh]                  [kcal/mol]
+             1  N/A                         0.000000000000        0.000000000000        0.000000000000        0.000000000000
+  FULL/RTN   2  N/A                        -0.000025839960       -0.016214819427       -0.000025839960       -0.016214819427
+
+
+2023-11-16:13:37:14,481 INFO     [psi4.driver.task_planner:235] PLANNING MB:  mc_level_idx=0 packet={'driver': 'energy', 'method': 'ccsd(t)', 'basis': 'aug-cc-pvdz', 'keywords': {'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}}
+2023-11-16:13:37:14,482 INFO     [psi4.driver.driver_nbody:952] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  // ManyBody Setup: N-Body Levels [1, 2]//
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:37:14,482 INFO     [psi4.driver.driver_nbody:513]         Number of 1-body computations:     2
+        Number of 2-body computations:     1
+2023-11-16:13:37:14,484 INFO     [psi4.driver.driver_nbody:1014] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //       ManyBody Computations       //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:37:14,505 INFO     [psi4.driver.task_base:159] <<< JSON launch ... c2v 0.0
+2023-11-16:13:37:14,535 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:37:14,539 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=0.0
+2023-11-16:13:37:15,250 INFO     [psi4.driver.driver:502] Return energy(): -128.70945659126352
+2023-11-16:13:37:15,266 INFO     [psi4.driver.task_base:159] <<< JSON launch ... c2v 0.0
+2023-11-16:13:37:15,295 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:37:15,298 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=0.0
+2023-11-16:13:37:16,9 INFO     [psi4.driver.driver:502] Return energy(): -128.70945659126357
+2023-11-16:13:37:16,25 INFO     [psi4.driver.task_base:159] <<< JSON launch ... d2h 21.167088426800007
+2023-11-16:13:37:16,55 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:37:16,58 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=21.167088426800007
+2023-11-16:13:37:16,853 INFO     [psi4.driver.driver:502] Return energy(): -257.41770426822154
+2023-11-16:13:37:16,873 INFO     [psi4.driver.driver_nbody:1364] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //          ManyBody Results         //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:37:16,874 INFO     [psi4.driver.driver_nbody:394] 
+   ==> N-Body: Counterpoise Corrected (CP) energies <==
+
+        n-Body     Total Energy            Interaction Energy                          N-body Contribution to Interaction Energy
+                   [Eh]                    [Eh]                  [kcal/mol]            [Eh]                  [kcal/mol]
+             1  N/A                         0.000000000000        0.000000000000        0.000000000000        0.000000000000
+  FULL/RTN   2  N/A                         0.001208914306        0.758605179718        0.001208914306        0.758605179718
+
+
+2023-11-16:13:37:16,940 INFO     [psi4.driver.task_planner:235] PLANNING MB:  mc_level_idx=0 packet={'driver': 'energy', 'method': 'ccsd(t)', 'basis': 'aug-cc-pvdz', 'keywords': {'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}}
+2023-11-16:13:37:16,940 INFO     [psi4.driver.driver_nbody:952] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  // ManyBody Setup: N-Body Levels [1, 2]//
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:37:16,940 INFO     [psi4.driver.driver_nbody:513]         Number of 1-body computations:     2
+        Number of 2-body computations:     1
+2023-11-16:13:37:16,942 INFO     [psi4.driver.driver_nbody:1014] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //       ManyBody Computations       //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:37:16,965 INFO     [psi4.driver.task_base:159] <<< JSON launch ... c2v 0.0
+2023-11-16:13:37:16,996 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:37:16,999 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=0.0
+2023-11-16:13:37:17,701 INFO     [psi4.driver.driver:502] Return energy(): -128.70937284019783
+2023-11-16:13:37:17,716 INFO     [psi4.driver.task_base:159] <<< JSON launch ... c2v 0.0
+2023-11-16:13:37:17,745 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:37:17,748 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=0.0
+2023-11-16:13:37:18,447 INFO     [psi4.driver.driver:502] Return energy(): -128.70937284019783
+2023-11-16:13:37:18,462 INFO     [psi4.driver.task_base:159] <<< JSON launch ... d2h 17.63924035566668
+2023-11-16:13:37:18,491 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:37:18,494 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=17.63924035566668
+2023-11-16:13:37:19,234 INFO     [psi4.driver.driver:502] Return energy(): -257.4187202339189
+2023-11-16:13:37:19,250 INFO     [psi4.driver.driver_nbody:1364] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //          ManyBody Results         //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:37:19,251 INFO     [psi4.driver.driver_nbody:394] 
+   ==> N-Body: Counterpoise Corrected (CP) energies <==
+
+        n-Body     Total Energy            Interaction Energy                          N-body Contribution to Interaction Energy
+                   [Eh]                    [Eh]                  [kcal/mol]            [Eh]                  [kcal/mol]
+             1  N/A                         0.000000000000        0.000000000000        0.000000000000        0.000000000000
+  FULL/RTN   2  N/A                         0.000025446477        0.015967905229        0.000025446477        0.015967905229
+
+
+2023-11-16:13:37:19,313 INFO     [psi4.driver.task_planner:235] PLANNING MB:  mc_level_idx=0 packet={'driver': 'energy', 'method': 'ccsd(t)', 'basis': 'aug-cc-pvdz', 'keywords': {'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}}
+2023-11-16:13:37:19,313 INFO     [psi4.driver.driver_nbody:952] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  // ManyBody Setup: N-Body Levels [1, 2]//
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:37:19,314 INFO     [psi4.driver.driver_nbody:513]         Number of 1-body computations:     2
+        Number of 2-body computations:     1
+2023-11-16:13:37:19,315 INFO     [psi4.driver.driver_nbody:1014] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //       ManyBody Computations       //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:37:19,338 INFO     [psi4.driver.task_base:159] <<< JSON launch ... c2v 0.0
+2023-11-16:13:37:19,369 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:37:19,372 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=0.0
+2023-11-16:13:37:20,59 INFO     [psi4.driver.driver:502] Return energy(): -128.70931531405265
+2023-11-16:13:37:20,73 INFO     [psi4.driver.task_base:159] <<< JSON launch ... c2v 0.0
+2023-11-16:13:37:20,102 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:37:20,105 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=0.0
+2023-11-16:13:37:20,790 INFO     [psi4.driver.driver:502] Return energy(): -128.70931531405233
+2023-11-16:13:37:20,805 INFO     [psi4.driver.task_base:159] <<< JSON launch ... d2h 13.229430266749995
+2023-11-16:13:37:20,834 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:37:20,837 INFO     [psi4.driver.driver:499] Compute energy(): method=ccsd(t), basis=aug-cc-pvdz, molecule=Ne2, nre=13.229430266749995
+2023-11-16:13:37:21,570 INFO     [psi4.driver.driver:502] Return energy(): -257.41865646806457
+2023-11-16:13:37:21,593 INFO     [psi4.driver.driver_nbody:1364] 
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+  //          ManyBody Results         //
+  //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//
+
+
+2023-11-16:13:37:21,593 INFO     [psi4.driver.driver_nbody:394] 
+   ==> N-Body: Counterpoise Corrected (CP) energies <==
+
+        n-Body     Total Energy            Interaction Energy                          N-body Contribution to Interaction Energy
+                   [Eh]                    [Eh]                  [kcal/mol]            [Eh]                  [kcal/mol]
+             1  N/A                         0.000000000000        0.000000000000        0.000000000000        0.000000000000
+  FULL/RTN   2  N/A                        -0.000025839960       -0.016214819427       -0.000025839960       -0.016214819427
+
+
+2023-11-16:13:38:58,228 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:38:58,231 INFO     [psi4.driver.driver:499] Compute energy(): method=sapt0, basis=jun-cc-pvdz, molecule=default, nre=85.1890645312758
+2023-11-16:13:39:02,726 INFO     [psi4.driver.driver:502] Return energy(): -0.0022355823909805178
+2023-11-16:13:39:09,176 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:39:09,203 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SCF__D_CONVERGENCE': 1e-08, 'SAPT__E_CONVERGENCE': 1e-09, 'SCF__E_CONVERGENCE': 1e-08, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:39:09,205 INFO     [psi4.driver.driver:617] Compute gradient(): method=scf, basis=cc-pvdz, molecule=default, nre=9.300665063058295
+2023-11-16:13:39:09,680 INFO     [psi4.driver.driver:620] Return gradient(): -76.02703272937593
+2023-11-16:13:39:09,681 INFO     [psi4.driver.driver:621] [[-0.          0.          0.00008586]
+ [ 0.         -0.00007268 -0.00004293]
+ [-0.          0.00007268 -0.00004293]]
+2023-11-16:13:39:09,682 INFO     [psi4.driver.driver:1437] Compute hessian(): method=scf, basis=cc-pvdz, molecule=default, nre=9.300665063058295
+2023-11-16:13:39:10,449 INFO     [psi4.driver.driver:1441] Return hessian(): -76.02703272937593
+2023-11-16:13:39:10,450 INFO     [psi4.driver.driver:1442] [[-0.00007858  0.          0.          0.00003929  0.         -0.          0.00003929 -0.         -0.        ]
+ [ 0.          0.78584954 -0.          0.         -0.39292477  0.30336826 -0.         -0.39292477 -0.30336826]
+ [ 0.         -0.          0.53846879 -0.          0.23574776 -0.26923439 -0.         -0.23574776 -0.26923439]
+ [ 0.00003929  0.         -0.          0.00000603 -0.          0.         -0.00004532 -0.          0.        ]
+ [ 0.         -0.39292477  0.23574776 -0.          0.42766634 -0.26955801 -0.         -0.03474157  0.03381025]
+ [-0.          0.30336826 -0.26923439  0.         -0.26955801  0.25174302  0.         -0.03381025  0.01749137]
+ [ 0.00003929 -0.         -0.         -0.00004532 -0.          0.          0.00000603  0.          0.        ]
+ [-0.         -0.39292477 -0.23574776 -0.         -0.03474157 -0.03381025  0.          0.42766634  0.26955801]
+ [-0.         -0.30336826 -0.26923439  0.          0.03381025  0.01749137  0.          0.26955801  0.25174302]]
+2023-11-16:13:39:14,437 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'RHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:39:14,440 INFO     [psi4.driver.driver:617] Compute gradient(): method=scf, basis=cc-pvdz, molecule=default, nre=9.300665063058295
+2023-11-16:13:39:14,761 INFO     [psi4.driver.driver:620] Return gradient(): -76.02703272937593
+2023-11-16:13:39:14,761 INFO     [psi4.driver.driver:621] [[-0.          0.          0.00008586]
+ [ 0.         -0.00007268 -0.00004293]
+ [-0.          0.00007268 -0.00004293]]
+2023-11-16:13:39:19,552 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'UHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:39:19,556 INFO     [psi4.driver.driver:499] Compute energy(): method=scf, basis=6-31g**, molecule=default, nre=6.17454856754189
+2023-11-16:13:39:19,820 INFO     [psi4.driver.driver:502] Return energy(): -38.925334628937065
+2023-11-16:13:39:25,726 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'REFERENCE': 'UHF', 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-11-16:13:39:25,729 INFO     [psi4.driver.driver:499] Compute energy(): method=scf, basis=cc-pvdz, molecule=default, nre=9.168193296424349
+2023-11-16:13:39:26,10 INFO     [psi4.driver.driver:502] Return energy(): -76.0266327350902
