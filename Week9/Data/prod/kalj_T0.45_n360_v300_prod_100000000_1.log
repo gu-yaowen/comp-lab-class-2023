@@ -1,0 +1,18 @@
+
+include ${pot}.lmp
+include kalj.lmp
+units lj
+atom_style atomic
+
+variable dimensions equal 3
+variable density equal 1.2
+variable fraca equal 0.8
+
+dimension ${dimensions}
+dimension 3
+read_restart ${prevbasename}.final.lmprestart.${steps}
+read_restart equil/kalj_T0.45_n360_v300_100000000_1.final.lmprestart.${steps}
+read_restart equil/kalj_T0.45_n360_v300_100000000_1.final.lmprestart.100000000
+Reading restart file ...
+ERROR on proc 0: Cannot open restart file equil/kalj_T0.45_n360_v300_100000000_1.final.lmprestart.100000000: No such file or directory (src/read_restart.cpp:113)
+Last command: read_restart ${prevbasename}.final.lmprestart.${steps}

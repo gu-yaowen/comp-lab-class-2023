@@ -1,0 +1,30 @@
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+include ${configfile}
+include ../Inputs/n360/kalj_n360_create.lmp
+variable pot string "kalj"
+variable temp equal 2.0
+variable natoms equal 360
+variable volume equal 300
+
+variable timestep equal 0.001
+variable dumptime equal 10000
+variable restarttime equal 10000
+variable thermotime equal 1000
+variable taut equal ${timestep}*100
+variable taut equal 0.001*100
+
+variable steps equal 10000
+variable minsteps equal 10000
+
+shell mkdir equil
+variable basename string equil/${pot}_T${temp}_n${natoms}_v${volume}_${minsteps}_${id}
+variable basename string equil/kalj_T${temp}_n${natoms}_v${volume}_${minsteps}_${id}
+variable basename string equil/kalj_T2_n${natoms}_v${volume}_${minsteps}_${id}
+variable basename string equil/kalj_T2_n360_v${volume}_${minsteps}_${id}
+variable basename string equil/kalj_T2_n360_v300_${minsteps}_${id}
+variable basename string equil/kalj_T2_n360_v300_10000_${id}
+variable basename string equil/kalj_T2_n360_v300_10000_1
+log ${basename}.log
+log equil/kalj_T2_n360_v300_10000_1.log
